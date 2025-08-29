@@ -1,11 +1,15 @@
 {
-  "name": "Python 3.13 & Node",
+  "name": "Python 3.13 & Node & Conda",
   "image": "mcr.microsoft.com/devcontainers/python:3.13-bullseye",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
+    },
+    "ghcr.io/devcontainers/features/miniconda:1": {
+      "version": "latest",
+      "installJupyterlab": true
     }
-  },
+},
   "postCreateCommand": "pip install uv && uv pip install . && uv tool install llm && llm install llm-github-models && llm models default github/gpt-4.1",
   "customizations": {
     "vscode": {
