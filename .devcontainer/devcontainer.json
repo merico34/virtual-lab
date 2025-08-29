@@ -5,7 +5,7 @@
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts"
     },
-    "ghcr.io/devcontainers/features/miniconda:1": {
+    "ghcr.io/devcontainers/features/anaconda:1": {
       "version": "latest",
       "installJupyterlab": true
     }
