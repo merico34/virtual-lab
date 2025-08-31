@@ -4,7 +4,7 @@
 [![PyPI version](https://badge.fury.io/py/virtual-lab.svg)](https://badge.fury.io/py/virtual-lab)
 [![Downloads](https://pepy.tech/badge/virtual-lab)](https://pepy.tech/project/virtual-lab)
 [![license](https://img.shields.io/github/license/zou-group/virtual-lab.svg)](https://github.com/zou-group/virtual-lab/blob/main/LICENSE.txt)
-[launch current codespace](https://codespaces.new/merico34/virtual-lab/codespaces?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/merico34/virtual-lab?quickstart=1)
 
 ![Virtual Lab](images/virtual_lab_architecture.png)
 
