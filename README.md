@@ -7,7 +7,7 @@
 
 ![Virtual Lab](images/virtual_lab_architecture.png)
 
-![launch current codespace](https://codespaces.new/simonw/codespaces?quickstart=1)
+[launch current codespace](https://codespaces.new/simonw/codespaces?quickstart=1)
 
 The **Virtual Lab** is an AI-human collaboration for science research. In the Virtual Lab, a human researcher works with a team of large language model (LLM) **agents** to perform scientific research. Interaction between the human researcher and the LLM agents occurs via a series of **team meetings**, where all the LLM agents discuss a scientific agenda posed by the human researcher, and **individual meetings**, where the human researcher interacts with a single LLM agent to solve a particular scientific task.
 
