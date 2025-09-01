@@ -10,7 +10,7 @@
       "installJupyterlab": true
     }
 },
-  "postCreateCommand": "pip install uv && uv pip install . && uv tool install llm && llm install llm-github-models && llm models default github/gpt-4.1 && conda init && conda create -y -n virtual_lab python=3.12 && conda activate virtual_lab ",
+  "postCreateCommand": "pip install uv && uv pip install . && uv tool install llm && llm install llm-github-models && llm models default github/gpt-4.1 && conda init && conda create -y -n virtual_lab python=3.12 && conda activate virtual_lab && pip install -e .",
   "customizations": {
     "vscode": {
       "extensions": [
