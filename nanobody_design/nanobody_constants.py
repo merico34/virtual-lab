@@ -13,6 +13,10 @@ num_rounds = 3
 model = "gpt-4o-2024-08-06"
 model_mini = "gpt-4o-mini-2024-07-18"
 
+# Ajout ev
+endpoint = "https://models.github.ai/inference"
+model = "openai/gpt-4.1"
+
 # Discussion paths
 discussions_dir = Path("discussions")
 workflow_phases = [
