@@ -92,7 +92,8 @@ def run_meeting(
     start_time = time.time()
 
     # Set up client
-    client = OpenAI()
+    #client = OpenAI()
+    client = OpenAI(base_url="https://models.github.ai/inference")
 
     # Set up team
     if meeting_type == "team":
