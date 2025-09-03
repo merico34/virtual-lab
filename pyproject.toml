@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "virtual-lab"
+name = "virtual_lab"
 dynamic = ["version"]
 authors = [
     { name = "Kyle Swanson", email = "swansonk.14@gmail.com" },
